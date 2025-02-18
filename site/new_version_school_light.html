@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preload"
+          href="https://excalidraw.nyc3.cdn.digitaloceanspaces.com/oss/fonts/Excalifont/Excalifont-Regular-b9dcf9d2e50a1eaf42fc664b50a3fd0d.woff2"
+          as="font" type="font/woff2"/>
+    <link rel="stylesheet" href="{{url_for('static', filename='css/site-v2-light.css')}}">
+    <link rel="shortcut icon" href="static/image/icon.png" type="image/png">
+    <title>Школа 641</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+<header>
+    <a href="https://school641.ru/" target="_blank"><img src="{{url_for('static', filename='image/icon.png')}}"
+                                                         alt="логотип школы" class="img_header"/>
+        <button id="hidden-img" class="official-link">Официальный сайт школы</button>
+    </a>
+    <p id="hidden" class="center-text-hd">Школа №641</p>
+</header>
+<div class="background-r">
+    <img class="bg-img-r" src="static/svg/bg-svg-r.svg"/>
+</div>
+<div class="background-l">
+    <img class="bg-img-l" src="static/svg/bg-svg.svg"/>
+</div>
+
+<div class="container">
+    <div class="start-img">
+        <img class="img-first" src="static/svg/start-svg.svg" alt="start-logo-svg" width=100%>
+    </div>
+    <div class="separator"></div>
+    <div class="text">
+        <p class="short-txt">Добро пожаловать!<br/> Этот сайт был специально создан для демонстрации лучших качеств
+            нашего учебного заведения: "Средней общеобразовательной школы №641 с углубленным изучением английского языка
+            Невского района Санкт-Петербурга"</p>
+        <img id="mini-school" src="static/svg/school-picture.svg" alt="svg-mini-school">
+        <div class="separator" id="right-side"></div>
+    </div>
+    <div class="pre-img-text">
+        <p class="short-txt" id="short-txt-second">В первую очередь вы должны видеть внешне школу о которой идет речь.
+            Вот вам несколько фотографий для примера</p>
+        <img id="cam-svg" src="static/svg/video-camera.svg" alt="svg-video-camera">
+    </div>
+    <div class="photo-outside">
+        <img src="static/image/sch641_2.png" alt="photo outside first" class="img-outside-v2">
+        <img src="static/image/for_site.jpg" alt="photo outside second" class="img-outside-v2" id="img-2">
+    </div>
+    <div class="separator big"></div>
+    <div class="text">
+        <p>Среди наших достоинств можно выделить достаточно высокие баллы за ЕГЭ выпускников школы.<br/>Статистика за
+            определённый срок изображена на графике ниже:</p>
+    </div>
+    <div class="centr-graph">
+        <div class="chart-container">
+            <h2>Средний бал по ЕГЭ</h2>
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>
+    <div class="separator big"></div>
+    <div class="text">
+        <p>"Движение первых" не обошло стороной нашу школу! У нас есть отдельный участок, посвященный управлению
+            "Движения первых" Невского района.</p>
+    </div>
+    <div class="move-first">
+        <img src="static/image/door.png" alt="photo our punkt" class="img-move-first">
+        <img src="static/svg/movement-first-dark.svg" alt="logo movement of the first" id="logo" class="img-move-first">
+    </div>
+    <div class="separator"></div>
+    <div class="student-council">
+        <div class="text">
+            <p>В нашей школе есть дружный совет старшеклассников, который может решить практически любые проблемы
+                учеников в нелёгкой школьной жизни...</p>
+
+            <ul>
+                <li>Возможно именно ты вступишь в этот совет и кардинально поменяешь что-нибудь.</li>
+                <li>Ну или может ты захочешь поучаствовать в проведении выступлений и концертов...</li>
+            </ul>
+            <p>Довольно часто наши ребята организуют различные мероприятия в актовом зале, кто знает, вдруг ты станешь
+                ведущим одного из них:</p>
+            <div class="active">
+                <img src="static/image/active-1.jpg" alt="" class="active-img">
+                <img src="static/image/active-2.jpg" alt="" class="active-img">
+                <img src="static/image/active-3.jpg" alt="" class="active-img">
+                <img src="static/image/active-4.jpg" alt="" class="active-img">
+            </div>
+        </div>
+    </div>
+    <div class="separator big"></div>
+    <div class="sportcomlex">
+        <div class="text">
+            <p>Ну и конечно куда без занятий спортом! У нас имеются два оборудованных спортивных зала, в которых
+                происходит много всего интересного.</p>
+            <ul>
+                <li>Различные спортивные кружки от футбола до баскетбола</li>
+                <li>Здесь проходят увлекательные мероприятия, например недавно наши ребята сдавали ГТО!!</li>
+            </ul>
+            <div class="active">
+                <img src="static/image/sport-1.jpg" alt="" class="sport-img">
+                <img src="static/image/sport-3.jpg" alt="" class="sport-img" id="right">
+            </div>
+            <img src="static/image/sport-2.jpg" alt="" class="img-outside-v2">
+        </div>
+    </div>
+    <div class="dash"></div>
+    <div class="text-centr">
+        <p>С удовольствием будем ждать тебя у нас</p>
+        <img src="static/svg/pretext.svg" alt="" class="dash-img">
+        <p>See you later, dear friend, I hope you enjoyed it.</p>
+    </div>
+    <footer>
+        <p class="inline">"Наши контакты:</p>
+        <img src="static/image/icon.png" alt="" class="cntr-img-footer">
+        <ul>
+            <li><a href="https://school641.ru/">Наш официальный сайт</a></li>
+            <li><a href="">Мы в ВК</a></li>
+        </ul>
+    </footer>
+</div>
+</body>
+<script>
+    const ctx = document.getElementById('myChart');
+
+    new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: [2010, 2011, 2012, 2013, 2017, 2018, 2019, 2020, 2021, 2022, 2023],
+            datasets: [{
+                label: 'Средний бал',
+                data: [54.7, 58.9, 56.6, 60.9, 60, 58.5, 64, 69.1, 68.3, 66.7, 70.4],
+                borderColor: '#000000',
+                backgroundColor: 'rgba(255,255,255,0.63)',
+                tension: 0.4,
+                fill: true,
+                borderWidth: 1.5,
+                pointBackgroundColor: '#000000',
+                pointRadius: 4,
+                pointHoverRadius: 6
+            }]
+        },
+        options: {
+            responsive: true,
+            animation: {
+                duration: 2000,
+                easing: 'easeInOutQuart'
+            },
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    grid: {
+                        color: 'rgba(159,159,159,0.38)'
+                    }
+                },
+                x: {
+                    grid: {
+                        display: false
+                    }
+                }
+            },
+            plugins: {
+                legend: {
+                    labels: {
+                        font: {
+                            size: 15
+                        },
+                        color: '#0e0e0e'
+
+                    }
+                }
+            }
+        }
+    });
+</script>
+
+</html>
