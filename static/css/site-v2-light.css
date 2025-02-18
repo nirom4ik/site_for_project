@@ -91,7 +91,7 @@ header {
         font-size: 2vmax;
     }
     .bg-img-r, .bg-img-l {
-    height: 4250px;
+    height: 4150px;
     }
     
 }
@@ -112,8 +112,8 @@ header {
     .text, .short-txt {
         font-size: 1.3vmax;
     }
-    .bg-img-r {
-    height: 100%;
+    .bg-img-r, .bg-img-l {
+    height: 5500px;
     }
 }
 /* BODY */
@@ -130,7 +130,7 @@ body {
 
 .container {
     width: 80%;
-    max-width: 900px;
+    max-width: 800px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -240,7 +240,7 @@ div#right-side.separator {
 }
 
 .big {
-    margin-top: 50px;
+    margin-top: 35px;
 }
 
 li {
