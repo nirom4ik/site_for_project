@@ -164,13 +164,13 @@ img#mini-school {
     width: 46%;
     margin: 10px auto;
     border-radius: 25px;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 
 .img-outside-v2 {
     width: 100%;
     border-radius: 25px;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 
 
@@ -195,7 +195,7 @@ img#img-2.img-outside {
     max-width: 46%;
     display: inline-block;
     border-radius: 25px;
-    border: 3px solid black;
+    border: 1px solid black;
 }
 
 .pre-img-text {
@@ -252,7 +252,7 @@ li {
     max-width: 48%;
     display: inline-block;
     border-radius: 25px;
-    border: 3px solid black;
+    border: 1px solid black;
     margin-bottom: 18px;
 }
 
