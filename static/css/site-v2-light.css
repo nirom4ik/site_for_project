@@ -110,7 +110,7 @@ header {
 }
 @media (min-device-width: 1600px) {
     .text, .short-txt {
-        font-size: 1.3vmax;
+        font-size: 1.6vmax;
     }
     .bg-img-r, .bg-img-l {
     height: 5500px;
