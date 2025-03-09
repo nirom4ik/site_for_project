@@ -130,7 +130,7 @@ body {
 
 .container {
     width: 80%;
-    max-width: 800px;
+    max-width: 900px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -161,7 +161,7 @@ img#mini-school {
 /* SECOND BLOCK */
 .img-outside {
     display: inline-block;
-    width: 46%;
+    width: 49%;
     margin: 10px auto;
     border-radius: 25px;
     border: 1px solid black;
